@@ -1,0 +1,198 @@
+newmtl brazo_sup_der1:Material_040
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl brazo_sup_izq:Material_043
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl muneca_der1:Material_041
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl muneca_izq:Material_045
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_der_abajo:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_der_abajo:Material_012
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_der_arriba:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_izq_abajo:Material_008
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_izq_abajo:Material_010
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl pierna_izq_arriba:Material_008
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_009
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pantalon_timmy.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_013
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_014
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_015
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_016
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_017
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_018
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_019
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_020
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_021
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl timmy_truncoSupActualizado:Material_031
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd timmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00

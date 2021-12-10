@@ -1,0 +1,631 @@
+newmtl bocadinosaurio:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl bocadinosaurio:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dinosaurio.png
+Ni 1.00
+newmtl bocadinosaurio:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dientes.png
+Ni 1.00
+newmtl bocadinosaurio:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lengua.png
+Ni 1.00
+newmtl buro:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd esc_tex.png
+Ni 1.00
+newmtl buro:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cajon.png
+Ni 1.00
+newmtl camacompleta:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd colchon.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl camacompleta:Material_003
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd sabanaLila.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl camacompleta:Material_005
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd cobijaMorada.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl camacompleta:None
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl camacompleta:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cabecera.tga
+Ni 1.00
+newmtl camacompleta:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd colchon.tga
+Ni 1.00
+newmtl camacompleta:null_
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl casaCompleta:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa_front.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_002
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pared.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_003
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pared.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_004
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa_front.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_006
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa_front2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_009
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_010
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_011
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_012
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_013
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa_arriba.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_015
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_016
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_017
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_018
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_019
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd paredTimmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_021
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa_right.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_024
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd cobertizo.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_026
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_032
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa2.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_038
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd escalones.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_040
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_042
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_044
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd casa.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_046
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pasto.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_049
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pasto_enfrente.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_051
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd camino.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_053
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd camino.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_055
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd reja.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_057
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd barda.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_059
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd paredTimmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl casaCompleta:Material_061
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd pisoTimmy.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl compu:Material_002
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd monitor_base.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl compu:Material_003
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd monitor_disp.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl compu:Material_005
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd monitor_base.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl compu:Material_007
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd monitor_base.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl compu:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd monitor_base.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl cuerporobot:lambert2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl cuerporobot:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd robot3.png
+Ni 1.00
+newmtl cuerporobot:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd robot.png
+Ni 1.00
+newmtl desk:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cajones_esc.png
+Ni 1.00
+newmtl desk:lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd esc_tex.png
+Ni 1.00
+newmtl dinosaurio:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl dinosaurio:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dinosaurio.png
+Ni 1.00
+newmtl dinosaurio:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dientes.png
+Ni 1.00
+newmtl dinosaurio:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ojos.png
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd paredc.png
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd techoc.png
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd piso.png
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd transparente.png
+Ni 1.00
+newmtl lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd agua.png
+Ni 1.00
+newmtl lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd agua.png
+Ni 1.00
+newmtl lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd castillo.png
+Ni 1.00
+newmtl lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd castillo.png
+Ni 1.00
+newmtl lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd castillo.png
+Ni 1.00
+newmtl lambert13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd puertac.png
+Ni 1.00
+newmtl lambert15SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd robot.png
+Ni 1.00
+newmtl lambert16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lengua.png
+Ni 1.00
+newmtl lambert17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dientes.png
+Ni 1.00
+newmtl lambert18SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd dientes.png
+Ni 1.00
+newmtl lampara:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd lampara.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl lampara:Material_003
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd lampara.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl lampara:Material_005
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd lampara.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl lampara:Material_009
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd foco.tga
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl silla:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd respaldo.jpg
+Ni 1.00
+newmtl silla:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cilindro.jpg
+Ni 1.00
