@@ -42,7 +42,7 @@ public:
 	GLfloat getrotx() { return rotx; }
 	GLfloat getroty() { return roty; }
 	GLfloat getrotz() { return rotz; }
-	GLfloat getMusica() { return musica; }
+	GLfloat getSaludo() { return saludo; }
 
 	bool getShouldClose() {
 		return  glfwWindowShouldClose(mainWindow);
@@ -91,7 +91,7 @@ private:
 	GLfloat rotx;
 	GLfloat roty;
 	GLfloat rotz;
-	GLfloat musica;
+	GLfloat saludo;
 
 	bool mouseFirstMoved;
 	static void ManejaTeclado(GLFWwindow* window, int key, int code, int action, int mode);

@@ -103,7 +103,9 @@ bool auxMovTimmy = true;
 bool movPuerta = false;
 bool abrirPuerta = true;
 bool cerrarPuerta = false;
-//Audio
+bool giro = false;
+bool giroDer = false;
+bool giroIzq = false;
 int i = 0;
 
 Window mainWindow;
@@ -525,10 +527,10 @@ int main(int argc, const char** argv)
 {
 	ISoundEngine* engine = irrklang::createIrrKlangDevice();
 
-	//mainWindow = Window(1366, 768); // 1280, 1024 or 1024, 768
-	mainWindow = Window(800, 600); // 1280, 1024 or 1024, 768
+	mainWindow = Window(1366, 768); // 1280, 1024 or 1024, 768
+	//mainWindow = Window(800, 600); // 1280, 1024 or 1024, 768
 	mainWindow.Initialise();
-
+	
 	CreateObjects();
 	CrearCubo();
 	CreateShaders();
@@ -731,28 +733,19 @@ int main(int argc, const char** argv)
 	sp.init(); //inicializar esfera
 	sp.load();//enviar la esfera al shader
 	
-	//bool musica = true;
-	//PlaySoundW(TEXT("media\Cancion.wav"), NULL, SND_ASYNC);
+
+	irrklang::ISoundSource* soundSrc;
+	irrklang::ISound* sound;
+
+	soundSrc = engine->addSoundSourceFromFile("media/Cancion2.wav");
+	soundSrc->setDefaultVolume(0.5f);
+	sound = engine->play2D(soundSrc, true, false, true);
 	
-	//	//i++;
-	//	
-	//	//printf("i = %i", i);
-	//	break;
-	//}
-	engine->play2D("media/Cancion.wav", true, false, true);
 
 	//Loop mientras no se cierra la ventana
 	while (!mainWindow.getShouldClose())
 	{
-		/*if (mainWindow.getMusica())
-		{*/
-			//PlaySound(TEXT("media\\Cancion.wav"), NULL, SND_ASYNC);
-			//engine->play2D("media/Cancion.wav", true,false, true );
-		/*}u
-		else
-		{
-			Sleep(1000); 
-		}*/
+
 		GLfloat now = glfwGetTime();
 		deltaTime = now - lastTime;
 		lastTime = now;
@@ -763,7 +756,6 @@ int main(int argc, const char** argv)
 		{
 			if (movTanqX < 20.0f)
 			{
-				//printf("Movimiento x = %f", movTanqX);
 				movTanqX += 3.0 * deltaTime;
 				rotLlantas += 10.0f * deltaTime;
 			}
@@ -1089,7 +1081,7 @@ int main(int argc, const char** argv)
 				}
 			}
 		}		
-
+	
 
 		//Recibir eventos del usuario
 		glfwPollEvents();
@@ -1437,10 +1429,12 @@ int main(int argc, const char** argv)
 		model = modelauxTimmy;
 		model = glm::translate(model, glm::vec3(0.0f, 0.25f, 0.15f));
 		model = glm::rotate(model, rotBraDerS * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, giroDer * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		brazo_der.RenderModel();
 		model = glm::translate(model, glm::vec3(0.0f, -0.251f, 0.0707f));
 		model = glm::rotate(model, rotBraDer * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, giroIzq * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		mano_der.RenderModel();
 		model = modelauxTimmy;

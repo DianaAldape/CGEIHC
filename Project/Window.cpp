@@ -39,7 +39,7 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 	rotx = 0.0f;
 	roty = 0.0f;
 	rotz = 0.0f;
-	musica = false;
+	saludo = false;
 
 	for (size_t i = 0; i < 1024; i++)
 	{
@@ -212,14 +212,7 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 		theWindow->rotz += 10.0f;
 	}
 
-	if (key == GLFW_KEY_C)
-	{
-		theWindow->musica = true;
-	}
-	if (key == GLFW_KEY_V)
-	{
-		theWindow->musica = false;
-	}
+
 
 	if (key >= 0 && key < 1024)
 	{
